@@ -80,7 +80,7 @@ public class Airplane implements Comparable<Airplane> {
 	 * Setter for speed
 	 * @param speed new speed
 	 */
-	public void setSpeed(int speed) {this.speed = speed;}
+	public void setSpeed(double speed) {this.speed = speed;}
 	/**
 	 * Getter for speed
 	 * @return speed
