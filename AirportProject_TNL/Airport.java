@@ -14,8 +14,7 @@ public class Airport {
 	public PriorityQueue<Airplane> eastRunway = new PriorityQueue<Airplane>(); // E, North Runway
 	public PriorityQueue<Airplane> southRunway = new PriorityQueue<Airplane>(); // S, North Runway
 	public PriorityQueue<Airplane> westRunway = new PriorityQueue<Airplane>(); // W, North Runway
-	public LinkedList<Integer> planeIDs = new LinkedList<Integer>(); // planes currently in Airport area
-	
+
 	
 	/**
 	 * Get which runway the plane is headed to
